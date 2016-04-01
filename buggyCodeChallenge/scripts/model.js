@@ -6,11 +6,11 @@ var jake = "I'm Jake!";
 var alex = "I'm Alex!";
 var fullname = 'Alex Isgrate';
 
-var immaObject = {};
+var immaObject = {
 immaObject.name = "Jake";
 immaObject.state = "is cool";
 var x = undefined;
-
+};
 var names = {
    fullname: 'John Doe',
    prop: {
