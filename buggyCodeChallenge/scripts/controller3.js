@@ -9,7 +9,7 @@ prob1.innerHTML = "Hello";
              Problem 2
 ************************************/
 var prob2 = document.getElementById('problem2');
-prob2.innerHMTL = immaObject.name + immaObject.state;
+prob2.innerHTML = immaObject.name + " " + immaObject.state;
 
 /************************************
              Problem 3
@@ -26,10 +26,23 @@ makeGreen('problem4');
              Problem 5
 ************************************/
 var prob5 = document.getElementById('problem5');
-print('problem5', toString(null));
+print('problem5', "null");
 
 /************************************
              Problem 6
 ************************************/
 var prob6 = document.getElementById('problem6');
 print('problem6',isUndefined(x));
+
+/************************************
+             Problem 7
+************************************/
+var prob7 = document.getElementById('problem7');
+print("problem7",names.prop.fullname)
+
+/************************************
+             Problem 8
+************************************/
+
+var prob8 = document.getElementById('problem8');
+prob8.innerHTML = fullname;

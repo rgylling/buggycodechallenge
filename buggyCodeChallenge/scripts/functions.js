@@ -1,7 +1,6 @@
 /************************************
         Functions to debug
 ************************************/
-console.log("hello");
 var print = function (id, message){
   var target = document.getElementById(id);
   target.innerHTML = message;
@@ -12,7 +11,7 @@ function makeGreen(id){
 }
 
 function isUndefined(thing){
-  if(thing = undefined){
+  if(thing == undefined){
     return "Totally undefined";
   }else{
     return "Not Undefined";
